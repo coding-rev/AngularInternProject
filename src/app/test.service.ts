@@ -6,6 +6,6 @@ import { Injectable } from "@angular/core";
 
 export class MyService {
     sayMyname() {
-        console.log('Andrews')
+        console.log('Tutor Andrews')
     }
 }
