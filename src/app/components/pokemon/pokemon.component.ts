@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
-import { MyService } from '../test.service';
+import { MyService } from '../../test.service';
 
 @Component({
   selector: 'app-pokemon',
