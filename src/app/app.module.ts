@@ -3,15 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { PokemonComponent } from './pokemon/pokemon.component';
+import { HeaderComponent } from './components/header/header.component';
+
+import { PokemonComponent } from './components/pokemon/pokemon.component';
 import { MyService } from './test.service';
+import { DetailPageComponentComponent } from './pages/detail-page-component/detail-page-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    PokemonComponent
+    PokemonComponent,
+    DetailPageComponentComponent
   ],
   imports: [
     BrowserModule,
