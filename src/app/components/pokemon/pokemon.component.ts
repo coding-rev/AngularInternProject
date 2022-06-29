@@ -25,7 +25,6 @@ export class PokemonComponent implements OnInit {
   }
 
   getPokemonDetail(name: string): void{
-    alert('click');
     const searchResult: PokemonModel[] = this.pokeService.getPokemon(name);
     this.currentPokemon = searchResult; 
   }
