@@ -1,0 +1,64 @@
+.content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+
+.card{
+    border: 3px solid , lightblue;
+    background-color:rgba(255,255,255,.8);
+    box-shadow: 5px 5px 20px rgba(0,0,0,.1);
+    border-radius: 6.1px;
+    width: 200px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+/* Check home.html.php and gallery.sass*/
+
+.card-container{
+  border: 1.5px solid, white;
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  /*background-color:rgba(255,255,255,.8)*/;
+  justify-content: center;
+  box-sizing:border-box;
+  left:50%;
+  margin-left: 300px;
+  margin-top: 20px;
+  height: fit-content;
+  width: 60%;
+  grid-gap: 40px;
+}
+
+.card img{
+ width: 100%;
+ display: block;
+}
+
+.card:hover{
+  transform:scale(1.2);
+}
+
+.info{
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 6px;
+  box-sizing:border-box;
+  position:absolute;
+  background: rgb(27, 27, 27);
+  color: white;
+}
