@@ -7,21 +7,23 @@ import { HeaderComponent } from './components/header/header.component';
 
 import { PokemonComponent } from './components/pokemon/pokemon.component';
 import { MyService } from './test.service';
-import { DetailPageComponentComponent } from './pages/detail-page-component/detail-page-component.component';
+
+import {PokemonAbilitiesService} from './service/pokemon-abilities.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    PokemonComponent,
-    DetailPageComponentComponent
+    PokemonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [
-    MyService
+    MyService,
+    PokemonAbilitiesService
+
   ],
   bootstrap: [AppComponent]
 })
