@@ -7,6 +7,11 @@ import { HeaderComponent } from './components/header/header.component';
 
 import { PokemonComponent } from './components/pokemon/pokemon.component';
 import { MyService } from './test.service';
+<<<<<<< HEAD
+
+import {PokemonAbilitiesService} from './service/pokemon-abilities.service';
+=======
+>>>>>>> 5df58ed26f96b94ebc052bd7bcdf8b3a5b2b8bf7
 
 @NgModule({
   declarations: [
@@ -19,7 +24,9 @@ import { MyService } from './test.service';
     AppRoutingModule
   ],
   providers: [
-    MyService
+    MyService,
+    PokemonAbilitiesService
+
   ],
   bootstrap: [AppComponent]
 })
