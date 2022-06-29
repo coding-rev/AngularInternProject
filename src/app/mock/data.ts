@@ -1,6 +1,6 @@
 import { PokemonModel } from '../model/pokemon.model';
 
-export const pokemonData: [PokemonModel, PokemonModel] = [
+export const pokemonData: PokemonModel[] = [
     {
         name: "Ditto",
         height: 110,
