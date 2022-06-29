@@ -1,18 +1,20 @@
 <div class="card-container">
-    <div class="card">
+    <div class="card" (click) = "getPokemonDetail('Ditto')">
         <!--- <h1>{{pageName}}</h1> -->
          <img src="/assets/pokemon-images/charmander.jpg" class="image-container" alt="Image of pokemon">
          <div class="info">
-            <p>Charmander</p>
-            <p>Type: fire</p>
+            <p>Ditto</p>
+            <p>{{currentPokemon[0].name}}</p>
+            <p>{{currentPokemon[0].weight}}</p>
+            <p>{{currentPokemon[0].height}}</p>
          </div>
          
      </div>
 
-     <div class="card">
+     <div class="card" (click) = "getPokemonDetail('Pikachu')">
          <img src="/assets/pokemon-images/charmander.jpg" class="image-container" alt="Image of pokemon">
          <div class="info">
-            <h1>Charmander</h1>
+            <h1>Pikachu</h1>
             <p>Type: fire</p>
          </div>
          
