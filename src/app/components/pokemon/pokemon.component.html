@@ -1,15 +1,4 @@
 <div class="card-container">
-<<<<<<< HEAD
-    <div class="card" (click)="gotoDetailPage('ditto', '/assets/pokemon-images/charmander.jpg')">
-         <!--- <h1>{{pageName}}</h1> -->
-         <img src="/assets/pokemon-images/charmander.jpg" class="image-container" alt="Image of pokemon">
-         <div class="info">
-            <p>Ditto</p>
-           
-         </div>
-         
-     </div>
-=======
     <a routerLink="/pokemon-details">
         <div class="card" (click)="getPokemonDetail('Ditto')">
             <img src="/assets/pokemon-images/charmander.jpg" class="image-container" alt="Image of pokemon">
@@ -32,7 +21,6 @@
             <p>{{currentPokemon[0].height}}</p>
         </div>
     </div>
->>>>>>> be7fe0b5a3f4d048af958a90ea7a28d315b917b2
 
     <div class="card" (click)="getPokemonDetail('Blazekon')">
         <img src="/assets/pokemon-images/blazekin.jpg" class="image-container" alt="Image of pokemon">
