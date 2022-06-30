@@ -1,8 +1,8 @@
 <div class="container">
-    <img src="/assets/pokemon-images/blazekin.jpg">
+    <img *ngIf="image" src="{{ image }}">
     <ul>
-        <li> Name: </li>
-        <li> Type</li>   
+        <li> Name: <b *ngIf="name">{{ name }}</b></li>
+        <li> Type: <b>{{ apiSelectedPokemon?.types[0].type.name }}</b></li>   
         <li>Abilities</li>
     </ul>
 </div>
