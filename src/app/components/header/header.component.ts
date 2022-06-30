@@ -12,8 +12,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  saySomething() {
-    alert('hi')
+  getPokemonData() {
+    
   }
 
 }

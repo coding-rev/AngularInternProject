@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-
+import { HttpClientModule } from '@angular/common/http';
 import { MyService } from './test.service';
 
 import {PokemonAbilitiesService} from './service/pokemon-abilities.service';
@@ -17,7 +17,8 @@ import {PokemonAbilitiesService} from './service/pokemon-abilities.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [
     MyService,
