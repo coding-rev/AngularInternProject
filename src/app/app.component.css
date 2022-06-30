@@ -19,3 +19,7 @@ body {
 .main {
     flex-grow: 1;
 }
+
+.footer{
+  padding: 5%;
+}

@@ -1,3 +1,10 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5%;
+    border-bottom: 2px solid grey;
+}
 ul{
     list-style-type: none;
     margin:0;
@@ -31,5 +38,7 @@ a{
 }
 
 ul li a.active{
-    color: red;
+    color: rgb(17, 128, 255);
 }
+
+

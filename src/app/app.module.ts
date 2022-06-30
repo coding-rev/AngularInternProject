@@ -10,12 +10,13 @@ import { MyService } from './test.service';
 import {PokemonAbilitiesService} from './service/pokemon-abilities.service';
 import { FooterComponent } from './components/footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     routingComponents,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

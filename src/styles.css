@@ -4,11 +4,14 @@ html {
   
   body {
     margin:0;
+    background-image: url("/assets/pokemon-images/pokemon-background.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
   }
   
   .bg {
     animation:slide 6s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, rgb(241, 135, 15) 50%, rgb(21, 22, 22) 50%);
+    background-image: linear-gradient(-60deg, rgb(41, 241, 15) 50%, rgb(32, 74, 209) 50%);
     bottom:0;
     left:-50%;
     opacity:.5;
@@ -39,3 +42,6 @@ html {
       transform:translateX(25%);
     }
   }
+
+  /* Glitch effect */
+  

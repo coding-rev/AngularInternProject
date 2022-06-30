@@ -38,8 +38,7 @@
   justify-content: center;
   box-sizing: border-box;
   left: 50%;
-  margin-left: 300px;
-  margin-top: 20px;
+  margin:auto;
   height: fit-content;
   width: 60%;
   grid-gap: 40px;

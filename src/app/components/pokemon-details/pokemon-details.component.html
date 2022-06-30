@@ -2,7 +2,13 @@
     <img *ngIf="image" src="{{ image }}">
     <ul>
         <li> Name: <b *ngIf="name">{{ name }}</b></li>
-        <li> Type: <b>{{ apiSelectedPokemon?.types[0].type.name }}</b></li>   
-        <li>Abilities</li>
+        <li> Type: <b>{{ apiSelectedPokemon?.types[0].type.name }}</b></li>
+        <li>Abilities:
+            <ul id="abilities-list">
+                <li *ngFor="let abilities of apiSelectedPokemon?.abilities; index as i;">
+                    <b>{{ abilities.ability.name }}</b>
+                </li>
+            </ul>
+        </li>
     </ul>
 </div>
