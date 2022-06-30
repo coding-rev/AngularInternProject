@@ -1,64 +1,50 @@
 <div class="card-container">
-    <a routerLink="/pokemon-details">
-        <div class="card" (click)="getPokemonDetail('Ditto')">
+    <div class="card" (click)="gotoDetailPage('ditto','/assets/pokemon-images/ditto.jpg')">
+        <img src="/assets/pokemon-images/ditto.jpg" class="image-container" alt="Image of pokemon">
+        <div class="info">
+            <h1>Ditto</h1>
+            
+        </div>
+    </div>
+
+ 
+        <div class="card" (click)="gotoDetailPage('charmander','/assets/pokemon-images/charmander.jpg')">
             <img src="/assets/pokemon-images/charmander.jpg" class="image-container" alt="Image of pokemon">
             <div class="info">
-                <h1>Ditto</h1>
-                <p>{{currentPokemon[0].name}}</p>
-                <p>{{currentPokemon[0].weight}}</p>
-                <p>{{currentPokemon[0].height}}</p>
+                <h1>Charmander</h1>
             </div>
         </div>
-    </a>
+   
+        
+    
 
-
-    <div class="card" (click)="getPokemonDetail('Greninja')">
-        <img src="/assets/pokemon-images/greninja.png" class="image-container" alt="Image of pokemon">
+    <div class="card" (click)="gotoDetailPage('bulbasaur','/assets/pokemon-images/bulbasaur.jpg')">
+        <img src="/assets/pokemon-images/bulbasaur.jpg" class="image-container" alt="Image of pokemon">
         <div class="info">
-            <h1>Greninja</h1>
-            <p>{{currentPokemon[0].name}}</p>
-            <p>{{currentPokemon[0].weight}}</p>
-            <p>{{currentPokemon[0].height}}</p>
+            <h1>Bulbasaur</h1>
         </div>
     </div>
 
-    <div class="card" (click)="getPokemonDetail('Blazekon')">
-        <img src="/assets/pokemon-images/blazekin.jpg" class="image-container" alt="Image of pokemon">
+    <div class="card" (click)="gotoDetailPage('squirtle','/assets/pokemon-images/squirtle.jpg')">
+        <img src="/assets/pokemon-images/squirtle.jpg" class="image-container" alt="Image of pokemon">
         <div class="info">
-            <h1>Blazeken</h1>
-            <p>{{currentPokemon[0].name}}</p>
-            <p>{{currentPokemon[0].weight}}</p>
-            <p>{{currentPokemon[0].height}}</p>
+            <h1>Squirtle</h1>
         </div>
     </div>
 
-    <div class="card" (click)="getPokemonDetail('Ditto')">
+    <div class="card" (click)="gotoDetailPage('charmander','/assets/pokemon-images/charmander.jpg')">
         <img src="/assets/pokemon-images/charmander.jpg" class="image-container" alt="Image of pokemon">
         <div class="info">
             <h1>Ditto</h1>
-            <p>{{currentPokemon[0].name}}</p>
-            <p>{{currentPokemon[0].weight}}</p>
-            <p>{{currentPokemon[0].height}}</p>
+            
         </div>
     </div>
 
-    <div class="card" (click)="getPokemonDetail('Ditto')">
+    <div class="card" (click)="gotoDetailPage('charmander','/assets/pokemon-images/charmander.jpg')">
         <img src="/assets/pokemon-images/charmander.jpg" class="image-container" alt="Image of pokemon">
         <div class="info">
             <h1>Ditto</h1>
-            <p>{{currentPokemon[0].name}}</p>
-            <p>{{currentPokemon[0].weight}}</p>
-            <p>{{currentPokemon[0].height}}</p>
-        </div>
-    </div>
-
-    <div class="card" (click)="getPokemonDetail('Ditto')">
-        <img src="/assets/pokemon-images/charmander.jpg" class="image-container" alt="Image of pokemon">
-        <div class="info">
-            <h1>Ditto</h1>
-            <p>{{currentPokemon[0].name}}</p>
-            <p>{{currentPokemon[0].weight}}</p>
-            <p>{{currentPokemon[0].height}}</p>
+            
         </div>
     </div>
 
