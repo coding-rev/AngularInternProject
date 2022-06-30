@@ -1,7 +1,7 @@
 <ul>
-    <li><a routerLink="/" routerLinkActive=""><h3>Home</h3></a></li>
-    <li><a routerLink="/pokemon" routerLinkActive=""><h3>Pokemon Library</h3></a></li>
-    <li><a routerLink="/pokemon-details" routerLinkActive=""><h3>Pokemon Details</h3></a></li>
+    <!-- <li><a routerLink="/pokemon-details" routerLinkActive=""><h3>Pokemon Details</h3></a></li> -->
+    <li><a routerLink="/pokemon" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><h3>Pokemon Library</h3></a></li>
+    <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><h3>Home</h3></a></li>
 </ul>
 
 <div class="main-items">
